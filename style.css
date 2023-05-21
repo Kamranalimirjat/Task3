@@ -1,0 +1,289 @@
+ *{
+    margin: 0%;
+    padding: 0%;
+}
+
+.main{
+    width: 100%;
+    background: url(65c1b1496c0d13fce1287c6efba31a38f6c0e3b1.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    height: 100vh; 
+    position:relative;
+}
+
+.navbar{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    padding: 10px 0;
+    align-items: center;
+    justify-content: right;
+}
+.main h1 span{
+    margin-top: 50px;
+    margin-left: 5px;
+    color: red;
+}
+ul{
+    margin-top: 4px;
+    
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 10px;
+}
+
+ul li a{
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    color: yellow;
+    margin-top: 3px;
+}
+
+ul li a:hover{
+    color: red;
+}
+.info{
+    margin-top: 20%;
+    margin-left: 2%;
+    text-transform: capitalize;
+}
+.info h1{
+    color: yellow;
+}
+
+.info span{
+    color: rgba(0, 255, 255, 0.912);
+}
+.info a{
+    color: black;
+    background-color: wheat;
+    margin: 15px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: medium;
+}
+
+.info a:hover{
+    background-color: aqua;
+}
+
+
+.About{
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 100px 0px;
+
+}
+ .About h1{
+    color: white;
+    width: 1100px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+
+button{
+    background-color: aqua;
+    color: brown;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+button:hover{
+    background-color: red;
+    color: aqua;
+}
+
+
+
+ /* About section start  */
+
+
+.aboutbox{
+    background-color: cadetblue;
+    display: flex;
+    margin: auto;
+    /* justify-content: center; */
+    align-items: center;
+    /* min-height: 500px; */
+    border: 1px solid gray; 
+    width: 800px;
+    height: 350px; 
+    text-align: top;
+    text-transform: capitalize;
+    /* margin-left: 150px; 
+    margin-top: 5px;  */
+
+}
+
+
+/* service section start */
+
+.service{
+    /* background-color: aqua; */
+    color: white;
+    width: 100%;
+    padding: 100px 0px;
+
+}
+.title h2{
+    color: white;
+    width: 1100px;
+    margin: 30px auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    min-height: 400px;
+}
+.card{
+    height: 350px;
+    width: 325px;
+    padding: 20px 30px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+}
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color:white;
+}
+
+h5{
+    color: yellow;
+    font-size: 20px;
+    margin-bottom: 15px;
+
+}
+
+.pra p{
+    color: white;
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+
+
+/* skill section start */
+
+.Skill{
+    /* background-color: aqua; */
+    color: white;
+    width: 100%;
+    padding: 100px 0px;
+    margin-top: 5px;
+
+}
+
+.title h2{
+    color:red;
+    width: 1100px;
+     margin: 10px auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    min-height: 400px;
+}
+.card{
+    height: 350px;
+    width: 325px;
+    padding: 20px 30px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+}
+
+  /* footer */
+
+.footer{
+     position: relative;
+     width: 100%;
+     height: 300px;
+     background: #101010;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+  }
+
+  .footer p:nth-child(1){
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+  }
+
+  .footer p:nth-child(2){
+     color: white;
+     font-size: 18px;
+     width: 450px;
+     text-align: center;
+     line-height: 24px;
+
+  }
+
+  .social{
+    display: flex;
+  }
+
+  .social a{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: yellow;
+    background: #f9004d; 
+    border-radius: 50%;
+    margin: 25px 10px;
+
+
+  }
+
+
+  @media (max-width:500px){
+    .main{
+        display: block;
+        flex-direction: column;
+
+    }
+}
+
+@media (max-width:500px){
+    .aboutbox{
+        display: block;
+        flex-direction: column;
+
+    }
+}
+
+@media (max-width:500px){
+    .SERVICES{
+        display: block;
+        /* flex-direction: column; */
+
+    }
+}
+
+
+
+
+
